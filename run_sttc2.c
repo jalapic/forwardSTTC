@@ -1,7 +1,3 @@
-#include <R.h>
-#include <stdio.h>
-#include <Rmath.h>
-
 //to compile this file, use command
 //R CMD SHLIB run_sttc2.c
 //for win32 use
