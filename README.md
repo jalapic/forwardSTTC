@@ -1,5 +1,7 @@
 ### Code for implementing the forward-only version of Cutts & Eglen's STTC algorithm
 
+An adaptation of the algorithm described here by Cutts & Eglen - http://www.ncbi.nlm.nih.gov/pubmed/25339742
+Also available in code here: https://github.com/sje30/sjemea
 
 ```
 ### Demonstration of Forward STTC
