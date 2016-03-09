@@ -1,4 +1,4 @@
-### Code for implementing a forward-only version of Cutts & Eglen's STTC algorithm
+### R Code for implementing a forward-only version of Cutts & Eglen's STTC algorithm
 
 An adaptation of the algorithm described here by Cutts & Eglen - http://www.ncbi.nlm.nih.gov/pubmed/25339742
 
