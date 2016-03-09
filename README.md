@@ -21,8 +21,8 @@ v2
 
 #parameters: start time, end time, DT
 START = 0 
-END = 100
-DT = 2
+END = 90
+DT = 0.5
 
 # run function to calculate forward STTC
 corr = .C("run_sttc2", as.integer(length(v1)), as.integer(length(v2)), 
@@ -30,5 +30,9 @@ corr = .C("run_sttc2", as.integer(length(v1)), as.integer(length(v2)),
           , coeff = double(1), as.double(v1), 
           as.double(v2))
 
-corr$coeff  # 0.4433919
+corr$coeff  #0.08872965
+
 ```
+
+
+Note - care has to be taken to ensure that the choice of DT is not too large such that too high a proportion of the sample period is tiled with the windows of DT.
