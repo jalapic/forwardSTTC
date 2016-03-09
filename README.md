@@ -26,5 +26,5 @@ corr = .C("run_sttc2", as.integer(length(v1)), as.integer(length(v2)),
           , coeff = double(1), as.double(v1), 
           as.double(v2))
 
-corr
+corr # $coeff  = [1] 0.1315658
 ```
