@@ -35,4 +35,4 @@ corr$coeff  #0.08872965
 ```
 
 
-Note - care has to be taken to ensure that the choice of DT is not too large such that too high a proportion of the sample period is tiled with the windows of DT.
+Note - care has to be taken to ensure that the choice of DT is not too large such that too high a proportion of the sample period is tiled with the windows of DT.  Data should not be uniform but occur in a bursting fashion.
